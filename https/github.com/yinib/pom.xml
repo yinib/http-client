@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.biasedbit</groupId>
+  <artifactId>http-client</artifactId>
+  <version>master</version>
+  <packaging>jar</packaging>
+
+  <name>HTTP client framework</name>
+  <description>
+    A Java high performance throughput-oriented HTTP client library built with Netty.
+  </description>
+  <inceptionYear>2013</inceptionYear>
+  <developers>
+    <developer>
+      <name>Bruno de Carvalho</name>
+      <email>bruno@biasedbit.com</email>
+      <url>http://biasedbit.com</url>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <!-- Netty; the network I/O swiss army knife -->
+    <dependency>
+    	<groupId>io.netty</groupId>
+    	<artifactId>netty</artifactId>
+    	<version>3.6.0.Final</version>
+    </dependency>
+    
+    <dependency>
+    	<groupId>org.projectlombok</groupId>
+    	<artifactId>lombok</artifactId>
+    	<version>1.16.4</version>
+    </dependency>
+
+    <!-- JUnit; for testing -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>
