@@ -33,12 +33,17 @@
 
   <dependencies>
     <!-- Netty; the network I/O swiss army knife -->
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty</artifactId>
-      <version>3.4.1.Final</version>
-      <scope>compile</scope>
-    </dependency>
+         <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty</artifactId>
+            <version>3.6.0.Final</version>
+        </dependency>
+
+         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.4</version>
+         </dependency>
 
     <!-- JUnit; for testing -->
     <dependency>
